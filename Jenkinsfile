@@ -48,7 +48,7 @@ pipeline {
                  sh 'mvn install -Dmaven.test.skip=false'
             }
         }
-        stage('Environment Analysis'){
+        stage('Environment Analysis') {
 
             parallel {
                 
